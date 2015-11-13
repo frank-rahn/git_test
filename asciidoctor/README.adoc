@@ -23,7 +23,22 @@ Eine *Einleitung* in http://asciidoc.org[AsciiDoc].
 . _kursiv_
 . `nicht proportional`
 
+== Sourcecode
+
 [source,ruby]
 ----
 puts "Hello, World!"
 ----
+
+== Sonstiges
+
+Label:: Beschreibung
+noch ein Label:: eine weitere Beschreibung
+
+== Zitate
+
+[quote, Bill Gates, Microsoft]
+____
+640 KB are enough for everyone.
+____
+
