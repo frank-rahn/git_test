@@ -9,9 +9,9 @@ v1.0, 2015.11.14
 :numbered:
 :homepage: http://www.frank-rahn.de
 
-toc::[]
-
 Eine *Einleitung* in http://asciidoc.org[AsciiDoc].
+
+toc::[]
 
 == Erste Überschrift
 
@@ -33,11 +33,13 @@ Eine *Einleitung* in http://asciidoc.org[AsciiDoc].
 == Quellcode
 
 [source,ruby]
+.Ruby
 ----
 puts "Hello, World!"
 ----
 
-[source,java,options="nowrap"]
+[source,java,options="nowrap",subs=+attributes]
+.Java
 ----
 public class EnterpriseAbstractFactory { <1>
 
