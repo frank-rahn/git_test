@@ -1,8 +1,15 @@
 = Hallo, AsciiDoc!
 Doc Frank Rahn <frank@example.com>
-V1.0, 2015.11.14
+v1.0, 2015.11.14
 :toc:
+:toclevels: 3
+:toc-title: Inhaltsverzeichnis
+:toc-placement!:
+:sectanchors:
+:numbered:
 :homepage: http://www.frank-rahn.de
+
+toc::[]
 
 Eine *Einleitung* in http://asciidoc.org[AsciiDoc].
 
@@ -59,6 +66,7 @@ noch ein Label:: eine weitere Beschreibung
 
 |===
 | Kopfzeile | Zweite Spalte
+
 | JDK | 8
 | Java EE | 7
 |===
