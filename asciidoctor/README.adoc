@@ -23,17 +23,27 @@ Eine *Einleitung* in http://asciidoc.org[AsciiDoc].
 . _kursiv_
 . `nicht proportional`
 
-== Sourcecode
+== Quellcode
 
 [source,ruby]
 ----
 puts "Hello, World!"
 ----
 
-== Sonstiges
+[source,java,options="nowrap"]
+----
+public class EnterpriseAbstractFactory { <1>
 
-Label:: Beschreibung
-noch ein Label:: eine weitere Beschreibung
+	public doSomething(int howLong) {
+		if (checkSomeThingThatLeadsToAVeryLongLine() == WE_EXPECT_EXACTLY_THIS) {
+			Thread.sleep(howLong); <2>
+		}
+	}
+}
+----
+
+<1> to shoort
+<2> busy waiting please
 
 == Zitate
 
@@ -42,3 +52,13 @@ ____
 640 KB are enough for everyone.
 ____
 
+== Sonstiges
+
+Label:: Beschreibung
+noch ein Label:: eine weitere Beschreibung
+
+|===
+| Kopfzeile | Zweite Spalte
+| JDK | 8
+| Java EE | 7
+|===
