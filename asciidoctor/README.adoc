@@ -1,5 +1,6 @@
-= Hello, AsciiDoc!
-Doc Writer <doc@example.com>
+= HAllo, AsciiDoc!
+Doc Frank Rahn <frank@example.com>
+V1.0, 2015.11.14
 
 An *introduction* to http://asciidoc.org[AsciiDoc].
 
