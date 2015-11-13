@@ -28,7 +28,7 @@ toc::[]
 
 . *fett*
 . _kursiv_
-. `nicht proportional`
+. `nicht proportional` oder `monospace`
 
 == Quellcode
 
@@ -41,11 +41,11 @@ puts "Hello, World!"
 [source,java,options="nowrap",subs=+attributes]
 .Java
 ----
-public class EnterpriseAbstractFactory { <1>
+public class EnterpriseAbstractFactory { // <1>
 
 	public doSomething(int howLong) {
 		if (checkSomeThingThatLeadsToAVeryLongLine() == WE_EXPECT_EXACTLY_THIS) {
-			Thread.sleep(howLong); <2>
+			Thread.sleep(howLong); // <2>
 		}
 	}
 }
