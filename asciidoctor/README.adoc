@@ -1,4 +1,4 @@
-= HAllo, AsciiDoc!
+= Hallo, AsciiDoc!
 Doc Frank Rahn <frank@example.com>
 V1.0, 2015.11.14
 
