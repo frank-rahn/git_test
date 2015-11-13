@@ -1,13 +1,15 @@
 = Hallo, AsciiDoc!
 Doc Frank Rahn <frank@example.com>
 V1.0, 2015.11.14
+:toc:
+:homepage: http://www.frank-rahn.de
 
-An *introduction* to http://asciidoc.org[AsciiDoc].
+Eine *Einleitung* in http://asciidoc.org[AsciiDoc].
 
-== First Section
+== Erste Überschrift
 
-* item 1
-* item 2
+* Aufzählung 1
+* Aufzählung 2
 
 [source,ruby]
 ----

@@ -1,0 +1,4 @@
+= Summary
+
+. link:README.adoc[Einleitung]
+. link:GLOSSARY.adoc[Glossary]
