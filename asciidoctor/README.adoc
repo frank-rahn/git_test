@@ -9,7 +9,19 @@ Eine *Einleitung* in http://asciidoc.org[AsciiDoc].
 == Erste Überschrift
 
 * Aufzählung 1
+** Nächste Ebene
 * Aufzählung 2
+
+== Checklisten
+
+- [ ] Nicht erledigt
+- [*] Erledigt
+
+== Formatierungen
+
+. *fett*
+. _kursiv_
+. `nicht proportional`
 
 [source,ruby]
 ----
