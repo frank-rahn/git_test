@@ -55,7 +55,7 @@ public class EnterpriseAbstractFactory { // <1>
 <1> to shoort
 <2> busy waiting please
 
-[source,bash]
+[source,shell]
 .Bash
 ----
 sudo mkdir /root/test
