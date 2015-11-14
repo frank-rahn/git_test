@@ -9,7 +9,7 @@ v1.0, 2015.11.14
 :numbered:
 :homepage: http://www.frank-rahn.de
 
-Eine *Einleitung* in http://asciidoc.org[AsciiDoc].
+NOTE: Eine *Einleitung* in http://asciidoc.org[AsciiDoc].
 
 toc::[]
 
@@ -29,6 +29,7 @@ toc::[]
 . *fett*
 . _kursiv_
 . `nicht proportional` oder `monospace`
+. Einen #Text# markieren
 
 == Quellcode
 
@@ -53,6 +54,12 @@ public class EnterpriseAbstractFactory { // <1>
 
 <1> to shoort
 <2> busy waiting please
+
+[source,bash]
+.Bash
+----
+sudo mkdir /root/test
+----
 
 == Zitate
 
