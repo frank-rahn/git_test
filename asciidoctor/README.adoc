@@ -58,7 +58,8 @@ public class EnterpriseAbstractFactory { // <1>
 [source,shell]
 .Bash
 ----
-sudo mkdir /root/test
+$ sudo mkdir /root/test
+$ ls -l /root
 ----
 
 == Zitate
