@@ -18,3 +18,9 @@ jobs:
       run: echo Hello, $USER
       env:
         USER: "test"
+    - name: Greet ${{secrets.USER}}
+      run: |
+        echo Hello, ${{secrets.USER}}
+        echo Hello, $USER
+      env:
+        USER: ${{secrets.USER}}
