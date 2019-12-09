@@ -24,3 +24,4 @@ jobs:
         echo Hello, $USER
       env:
         USER: ${{secrets.USER}}
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
